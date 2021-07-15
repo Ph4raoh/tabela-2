@@ -1,0 +1,241 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+  background: #f6f6f6;
+}
+
+#imgLogo {
+  width: 180px !important;
+  height: auto !important;
+  margin-left: 280px !important;
+}
+
+#navbar {
+  display: flex !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: 85px !important;
+  background-color: #fff !important;
+}
+
+h1 {
+  margin: 0 0 0.25em;
+}
+/* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #ffffff;
+  background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+
+option {
+  color: #000;
+}
+/* Custom Select */
+.select {
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: 0.25em;
+}
+.inputpeso {
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  width: 320px;
+  height: 3em;
+  line-height: 3;
+  overflow: hidden;
+}
+
+.resultado {
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  width: 320px;
+  height: 3em;
+  line-height: 3;
+  overflow: hidden;
+}
+
+.resultado2 {
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  width: 320px;
+  height: 3em;
+  line-height: 3;
+  overflow: hidden;
+}
+
+#resu {
+  width: 100%;
+  border-radius: 0.25em;
+  border: 0;
+}
+.resultado3 {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 3em;
+  line-height: 3;
+  overflow: hidden;
+}
+
+#resu3 {
+  text-align: center;
+
+  color: #000 !important;
+  width: 100%;
+  border-radius: 0.25em;
+  border: 0;
+}
+#resu2 {
+  text-align: center;
+  font-weight: 600;
+  color: #000 !important;
+  width: 100%;
+  border-radius: 0.25em;
+  border: 0;
+}
+
+#peso {
+  width: 100%;
+  border-radius: 0.25em;
+  border: 0;
+  border: 2px solid red;
+  color: red;
+}
+
+#peso:focus {
+  outline: none !important;
+  border: 2px solid red;
+  box-shadow: 0 0 10px #719ece;
+}
+
+.inputaltura {
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  width: 320px;
+  height: 3em;
+  line-height: 3;
+  overflow: hidden;
+}
+
+#altura {
+  width: 100%;
+  border-radius: 0.25em;
+  border: 0;
+}
+
+select {
+  flex: 1;
+  padding: 0 0.5em;
+  color: red;
+  cursor: pointer;
+}
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: red;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: rgb(0, 0, 0);
+}
+
+#myChart {
+  margin-top: 10px;
+  max-width: 350px !important;
+  max-height: 320px !important;
+}
+
+#textodescricao {
+  margin: 50 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 400px;
+  text-align: center;
+  color: #000;
+}
+
+#textonivel {
+  height: 25px;
+  color: #000;
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 400px;
+  text-align: center;
+}
+
+#textonivel2 {
+  color: #000;
+  height: 25px;
+  margin: auto;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 400px;
+  text-align: center;
+}
+
+#textonivel3 {
+  height: 25px;
+  color: #000;
+  margin: auto;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 400px;
+  text-align: center;
+}
+
+#botaoBaixar {
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  background-color: red;
+  color: #fff;
+  margin-bottom: 20px;
+}
+@media (max-width: 650px) {
+  #imgLogo {
+    width: 180px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+  }
+}
